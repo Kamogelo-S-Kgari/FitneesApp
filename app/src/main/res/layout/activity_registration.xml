@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/khetho"
+    tools:context=".UpdateProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginEnd="10sp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:src="@drawable/ic_jumping_rope"
+                tools:ignore="ObsoleteLayoutParam"
+                android:contentDescription="@string/update_todo" />
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/first_name"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/last_name"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/gender"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <EditText
+                android:id="@+id/contact_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/contact_number"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <EditText
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <EditText
+                android:id="@+id/enter_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:autofillHints=""
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_password"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColorHint="@color/login_form_details"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/button_background"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="@color/login_form_details_medium"/>
+
+            <Button
+                android:id="@+id/existing_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/button_background"
+                android:text="@string/already_have_an_account"
+                android:textAllCaps="false"
+                android:textColor="@color/login_form_details_medium"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

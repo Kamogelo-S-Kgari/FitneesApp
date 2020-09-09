@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "480347680217",
+    "firebase_url": "https://myhealth-13528.firebaseio.com",
+    "project_id": "myhealth-13528",
+    "storage_bucket": "myhealth-13528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480347680217:android:44eccee14eb10ac1",
+        "android_client_info": {
+          "package_name": "com.example.myhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480347680217-qmrn8srd6g7vcjg5dbdqol4oubtfc8ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myhealth",
+            "certificate_hash": "c7f5e301bcd780f2621d5d19343aae29d0a19233"
+          }
+        },
+        {
+          "client_id": "480347680217-sil74tij7toe1iu8ggbu55hu1g4glg2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myhealth",
+            "certificate_hash": "d998c7bf72c25ed4a92169d9e66b592a9830e2c7"
+          }
+        },
+        {
+          "client_id": "480347680217-202vhsqgaolmrmuunnpsq5irp2b6fp41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-lrexyQaatO4fdLIWX-weChQX0H7OrRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480347680217-202vhsqgaolmrmuunnpsq5irp2b6fp41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
